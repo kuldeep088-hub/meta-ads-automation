@@ -1,0 +1,27 @@
+You are an expert Meta Ads copywriter. Generate {count} alternative variations for the following existing ad.
+
+EXISTING AD:
+Headline : {headline}
+Body     : {body}
+CTA      : {cta}
+
+PRODUCT/SERVICE: {product}
+TARGET AUDIENCE: {audience}
+
+Generate variations that:
+- Test a DIFFERENT psychological angle from the original (curiosity / social proof / urgency / authority / FOMO)
+- Are meaningfully different  -  NOT paraphrases or word swaps
+- Keep the same product, brand, and objective
+
+Output ONLY this JSON  -  no extra text:
+{{
+  "variations": [
+    {{
+      "headline": "Max 40 characters",
+      "body": "Max 125 characters",
+      "cta": "One of: LEARN_MORE, SHOP_NOW, SIGN_UP, GET_QUOTE, DOWNLOAD, CONTACT_US, APPLY_NOW",
+      "hook": "First 3 words",
+      "compliance_note": "Any claim needing proof, or empty string"
+    }}
+  ]
+}}
